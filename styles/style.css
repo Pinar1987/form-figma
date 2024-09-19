@@ -1,0 +1,80 @@
+.container {
+  max-width: 1600px;
+  width: 100%;
+  min-height: 700px;
+  height: 100%;
+  background-color:rgb(114, 63, 63);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.form-container {
+  max-width: 468px;
+  width: 100%;
+  min-height: 500px;
+  height: 100%;
+  background-color:#BE0909;
+  margin-left:10px;
+  padding:4px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-style: normal
+}
+
+.form-container label {
+    margin-bottom: 8px;
+    font-size:14px;
+    display:block;
+    color:white
+}
+
+.form-container input, 
+.form-container textarea {
+  width: 320px;
+  padding:5px;
+  margin-bottom:15px;
+  background-color:#BE0909;
+  border-bottom:solid 1px #9DBEBB;
+  border-style:outset;
+  border-top:#BE0909;
+  border-right-style:none
+}
+    
+.form-container button { 
+    height: 40px;
+    background-color:#9DBEBB ;
+    text-decoration:none;
+    color:white;
+    font-weight: bold;
+    border-radius:20px;
+    cursor:pointer;
+    transition:all;
+    border:none; 
+}
+
+.form-container button:hover {
+  background-color: #BE0909;
+  border: #9DBEBB 2px solid;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.containertwo {
+    width: 260px;
+    height: 500px;
+    background-color:#FFB039;
+    padding:4px;
+}
+
+.duck {
+    position:absolute;
+    left:320px;
+    top:5%   
+}

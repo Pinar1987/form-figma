@@ -43,11 +43,6 @@ border-bottom:solid 1px #9DBEBB;
 border-style:outset;
 border-top:#BE0909;
 border-right-style:none
-
-
-
-
-
 }
     
 .form-container button{
@@ -67,6 +62,7 @@ border-right-style:none
     height: 500px;
     background-color:#FFB039;
     padding:4px;
+    
 
 }
 .duck{
